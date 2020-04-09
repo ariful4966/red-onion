@@ -1,0 +1,45 @@
+.bannerArea{
+    background:url(../../images/bannerbackground.png) no-repeat, center;
+    background-size: cover;
+}
+.formCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.formCenter input {
+    border: none;
+    background: none;
+}
+
+.formCenter label {
+    background: #fff;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    padding-right: 0;
+    border: 1px solid #cc1534;
+    /* pointer-events: none; */
+}
+
+.formCenter label input[type="submit"] {
+    background: #cc1534;
+    padding: 17px;
+    color: #fff;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.formCenter label input[type="text"] {
+    width: 70%;
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+}

@@ -1,0 +1,8 @@
+.LoginLogo img {width: 292px;}
+.signInArea button {
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}

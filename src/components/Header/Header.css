@@ -1,0 +1,13 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerArea {
+    background: #ddd;
+}
+
+.logoArea img {
+    width: 200px;
+}

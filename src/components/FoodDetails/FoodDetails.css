@@ -1,0 +1,14 @@
+.fdDetail {
+    text-align: left;
+}
+.foodImage {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.foodImage img {
+    width: 100%;
+    box-shadow: 1px 1px 10px #4b4e4b;
+    border-radius: 50%;
+}
