@@ -11,6 +11,8 @@ import BodyArea from "./components/BodyArea/BodyArea";
 import FoodDetails from "./components/FoodDetails/FoodDetails";
 import Login from "./components/Login/Login";
 import Checkout from "./components/Checkout/Checkout";
+import SignIn from "./components/Login/SignIn";
+import Inventory from "./components/Inventory/Inventory"
 
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
           <Route path="/review">
             
           </Route>
-          <Route path="/inventory">
-            
+          <Route path="/Inventory">
+            <Inventory></Inventory>
           </Route>
 
           <Route path="/food/:foodKey">
@@ -31,6 +33,11 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
+          
+          <Route path="/signIn">
+            <SignIn></SignIn>
+          </Route>
+          
           <Route path ="/checkout">
             <Checkout></Checkout>
           </Route>

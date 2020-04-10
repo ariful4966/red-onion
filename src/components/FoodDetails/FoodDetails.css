@@ -12,3 +12,64 @@
     box-shadow: 1px 1px 10px #4b4e4b;
     border-radius: 50%;
 }
+
+.foodAbout h1 {
+    font-size: 50px;
+    color: #262626;
+}
+
+.foodAbout p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1f1f1f;
+    padding: 30px 0;
+    line-height: 30px;
+}
+
+.foodAbout h3 {
+    font-size: 50px;
+    color: #5d2020;
+}
+
+.foodAbout h3 button {
+    border: none;
+    background: none;
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.foodAbout h3 input {
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: #262626;
+    background: #dcd4d4;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.foodAbout>button {
+    border: none;
+    background: #f24a6b;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #5d2020;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.activeImg {
+    margin-top: 20px;
+}
+
+.activeImg img {
+    margin: 10px;
+    transition: .5s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.activeImg img:focus, .activeImg img:hover, .activeImg img:active {
+    border: 1px solid #f24a6b;
+    box-shadow: 0 0 10px #f24a6b;
+}
